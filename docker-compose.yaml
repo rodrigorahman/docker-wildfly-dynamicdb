@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  dynamoDB:
+    image: aws-dynamodb
+    volumes:
+      - ./aws-dynamodb/data/:/data
+    ports:
+      - "8000:8000"
+
+  applicationServer:
+    image: jboss/wildfly-custom
+    ports:
+      - "8080:8080"
+      - "9999:9999"
+      - "9990:9990"
+      - "8787:8787"
+      - "1099:1099"
+    links:
+      - dynamoDB

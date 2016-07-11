@@ -1,0 +1,6 @@
+br/com/cvc/aws/dynamodb/rest/dto/Countries.class
+br/com/cvc/aws/dynamodb/rest/DynamoDBTestRestService.class
+br/com/cvc/aws/dynamodb/rest/config/RestApplication.class
+br/com/cvc/aws/dynamodb/rest/RestCountriesService.class
+br/com/cvc/aws/dynamodb/rest/CountryRestService.class
+br/com/cvc/aws/dynamodb/rest/config/DynamoDBConnectionProducer.class

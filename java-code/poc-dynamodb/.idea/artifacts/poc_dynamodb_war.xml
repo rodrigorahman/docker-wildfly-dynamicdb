@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="poc-dynamodb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="poc-dynamodb.war">
+      <element id="artifact" artifact-name="poc-dynamodb:war exploded" />
+    </root>
+  </artifact>
+</component>
